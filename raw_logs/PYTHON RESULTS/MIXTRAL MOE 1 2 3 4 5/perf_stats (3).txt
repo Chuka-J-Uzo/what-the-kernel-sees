@@ -1,0 +1,20 @@
+# started on Thu Feb 29 09:28:25 2024
+
+
+ Performance counter stats for 'python ./run_inference.py':
+
+     19,301,924.22 msec task-clock                       #    6.894 CPUs utilized             
+         7,372,784      context-switches                 #  381.971 /sec                      
+            16,843      cpu-migrations                   #    0.873 /sec                      
+           503,685      page-faults                      #   26.095 /sec                      
+59,202,777,309,237      cycles                           #    3.067 GHz                         (75.06%)
+72,891,346,639,093      instructions                     #    1.23  insn per cycle              (75.07%)
+ 8,961,232,369,757      branches                         #  464.266 M/sec                       (75.07%)
+    11,267,530,953      branch-misses                    #    0.13% of all branches             (75.07%)
+
+    2799.815565537 seconds time elapsed
+
+   18012.358418000 seconds user
+    1266.980536000 seconds sys
+
+

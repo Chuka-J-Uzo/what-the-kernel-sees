@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite the paper."
+title: "What the Kernel Sees: An Exploratory Study of Quantized LLM Inference on a 6 GB Consumer Laptop, and Pitfalls in Comparing Local Runtimes"
+authors:
+  - family-names: Uzo
+    given-names: Chuka Josemaria
+    orcid: "https://orcid.org/0009-0009-9411-2858"
+type: dataset
+license: CC-BY-4.0
+doi: 10.5281/zenodo.23074717
+date-released: 2026-10-01

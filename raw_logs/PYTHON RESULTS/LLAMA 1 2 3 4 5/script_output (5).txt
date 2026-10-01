@@ -1,0 +1,135 @@
+llama_model_loader: loaded meta data with 16 key-value pairs and 291 tensors from /home/blackjack/GITHUB PROJECTS/web-dep/llama-2-7b-chat-q5_k_m.gguf (version GGUF V2)
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = llama
+llama_model_loader: - kv   1:                               general.name str              = LLaMA v2
+llama_model_loader: - kv   2:                       llama.context_length u32              = 4096
+llama_model_loader: - kv   3:                     llama.embedding_length u32              = 4096
+llama_model_loader: - kv   4:                          llama.block_count u32              = 32
+llama_model_loader: - kv   5:                  llama.feed_forward_length u32              = 11008
+llama_model_loader: - kv   6:                 llama.rope.dimension_count u32              = 128
+llama_model_loader: - kv   7:                 llama.attention.head_count u32              = 32
+llama_model_loader: - kv   8:              llama.attention.head_count_kv u32              = 32
+llama_model_loader: - kv   9:     llama.attention.layer_norm_rms_epsilon f32              = 0.000010
+llama_model_loader: - kv  10:                          general.file_type u32              = 17
+llama_model_loader: - kv  11:                       tokenizer.ggml.model str              = llama
+llama_model_loader: - kv  12:                      tokenizer.ggml.tokens arr[str,32000]   = ["<unk>", "<s>", "</s>", "<0x00>", "<...
+llama_model_loader: - kv  13:                      tokenizer.ggml.scores arr[f32,32000]   = [0.000000, 0.000000, 0.000000, 0.0000...
+llama_model_loader: - kv  14:                  tokenizer.ggml.token_type arr[i32,32000]   = [2, 3, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6, ...
+llama_model_loader: - kv  15:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:   65 tensors
+llama_model_loader: - type q5_K:  193 tensors
+llama_model_loader: - type q6_K:   33 tensors
+llm_load_vocab: special tokens definition check successful ( 259/32000 ).
+llm_load_print_meta: format           = GGUF V2
+llm_load_print_meta: arch             = llama
+llm_load_print_meta: vocab type       = SPM
+llm_load_print_meta: n_vocab          = 32000
+llm_load_print_meta: n_merges         = 0
+llm_load_print_meta: n_ctx_train      = 4096
+llm_load_print_meta: n_embd           = 4096
+llm_load_print_meta: n_head           = 32
+llm_load_print_meta: n_head_kv        = 32
+llm_load_print_meta: n_layer          = 32
+llm_load_print_meta: n_rot            = 128
+llm_load_print_meta: n_embd_head_k    = 128
+llm_load_print_meta: n_embd_head_v    = 128
+llm_load_print_meta: n_gqa            = 1
+llm_load_print_meta: n_embd_k_gqa     = 4096
+llm_load_print_meta: n_embd_v_gqa     = 4096
+llm_load_print_meta: f_norm_eps       = 0.0e+00
+llm_load_print_meta: f_norm_rms_eps   = 1.0e-05
+llm_load_print_meta: f_clamp_kqv      = 0.0e+00
+llm_load_print_meta: f_max_alibi_bias = 0.0e+00
+llm_load_print_meta: n_ff             = 11008
+llm_load_print_meta: n_expert         = 0
+llm_load_print_meta: n_expert_used    = 0
+llm_load_print_meta: rope scaling     = linear
+llm_load_print_meta: freq_base_train  = 10000.0
+llm_load_print_meta: freq_scale_train = 1
+llm_load_print_meta: n_yarn_orig_ctx  = 4096
+llm_load_print_meta: rope_finetuned   = unknown
+llm_load_print_meta: model type       = 7B
+llm_load_print_meta: model ftype      = Q5_K - Medium
+llm_load_print_meta: model params     = 6.74 B
+llm_load_print_meta: model size       = 4.45 GiB (5.68 BPW) 
+llm_load_print_meta: general.name     = LLaMA v2
+llm_load_print_meta: BOS token        = 1 '<s>'
+llm_load_print_meta: EOS token        = 2 '</s>'
+llm_load_print_meta: UNK token        = 0 '<unk>'
+llm_load_print_meta: LF token         = 13 '<0x0A>'
+llm_load_tensors: ggml ctx size =    0.11 MiB
+llm_load_tensors: offloading 32 repeating layers to GPU
+llm_load_tensors: offloading non-repeating layers to GPU
+llm_load_tensors: offloaded 33/33 layers to GPU
+llm_load_tensors:        CPU buffer size =  4560.87 MiB
+..................................................................................................
+llama_new_context_with_model: n_ctx      = 8024
+llama_new_context_with_model: freq_base  = 10000.0
+llama_new_context_with_model: freq_scale = 1
+llama_kv_cache_init:        CPU KV buffer size =  4012.00 MiB
+llama_new_context_with_model: KV self size  = 4012.00 MiB, K (f16): 2006.00 MiB, V (f16): 2006.00 MiB
+llama_new_context_with_model: graph splits (measure): 1
+llama_new_context_with_model:        CPU compute buffer size =  3290.82 MiB
+AVX = 1 | AVX_VNNI = 0 | AVX2 = 1 | AVX512 = 0 | AVX512_VBMI = 0 | AVX512_VNNI = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | SSSE3 = 1 | VSX = 0 | 
+Model metadata: {'general.quantization_version': '2', 'general.file_type': '17', 'tokenizer.ggml.model': 'llama', 'llama.attention.head_count_kv': '32', 'llama.attention.head_count': '32', 'llama.rope.dimension_count': '128', 'llama.attention.layer_norm_rms_epsilon': '0.000010', 'llama.feed_forward_length': '11008', 'llama.embedding_length': '4096', 'general.name': 'LLaMA v2', 'llama.block_count': '32', 'llama.context_length': '4096', 'general.architecture': 'llama'}
+
+llama_print_timings:        load time =  214560.24 ms
+llama_print_timings:      sample time =     247.01 ms /   446 runs   (    0.55 ms per token,  1805.62 tokens per second)
+llama_print_timings: prompt eval time =  214558.56 ms /  1563 tokens (  137.27 ms per token,     7.28 tokens per second)
+llama_print_timings:        eval time =  131850.16 ms /   445 runs   (  296.29 ms per token,     3.38 tokens per second)
+llama_print_timings:       total time =  348153.51 ms /  2008 tokens
+
+Key Entities Involved:
+
+* Houthi rebels
+* Red Sea
+* Middle East
+* Asia
+* Europe
+* Mediterranean
+* U.S.
+* Xeneta
+* Emily Stausbøll
+* Peter Sand
+* National Retail Federation (NRF)
+* ITS Logistics
+* Resilinc
+
+Key Policy Designations:
+
+* General rate increases (GRIs)
+
+Company/Entity Profile:
+
+* Xeneta is a leading ocean and air freight benchmarking platform.
+* Emily Stausbøll is a market analyst at Xeneta.
+* Peter Sand is the chief analyst at Xeneta.
+* National Retail Federation (NRF) is a trade association representing retailers.
+* ITS Logistics is a drayage and intermodal company.
+* Resilinc is a supply chain mapping, disruption sensing, and analytics company.
+
+Competitors:
+
+* Other ocean freight benchmarking platforms
+
+Market Valuation:
+
+* The market valuation of Xeneta is not provided in the article.
+
+Impact on Stocks:
+
+* The article does not provide information on the impact of the Red Sea crisis on stocks.
+
+Industries Impacted:
+
+* Ocean freight industry
+* Supply chain industry
+* Retail industry
+
+Tone:
+
+* The tone of the article is neutral and informative, providing facts and analysis without taking a biased stance.
+
+Risk Rating:
+
+* Based on the information provided in the article, the risk rating for the Red Sea crisis is 6 out of 10. The crisis has already caused significant disruptions to global supply chains, and the situation is likely to continue affecting trade routes for the near future. However, there are signs that some shippers may be able to negotiate lower rates with ocean carriers, which could mitigate some of the risks associated with the crisis.
