@@ -1,0 +1,135 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 12:35:17 2024[24;80H[INFO] prompt context size: 524
+[INFO] Number of tokens to predict: 600
+[INFO] Number of layers to run on the GPU: 10
+[INFO] Batch size for prompt processing: 524
+[INFO] Log enable: true
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+llama_model_loader: loaded meta data with 20 key-value pairs and 325 tensors from /home/blackjack/Downloads/TheBloke-Phi-2-GGf/phi-2-Q5_K_M.gguf (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = phi2
+llama_model_loader: - kv   1:                               general.name str              = Phi2
+llama_model_loader: - kv   2:                        phi2.context_length u32              = 2048
+llama_model_loader: - kv   3:                      phi2.embedding_length u32              = 2560
+llama_model_loader: - kv   4:                   phi2.feed_forward_length u32              = 10240
+llama_model_loader: - kv   5:                           phi2.block_count u32              = 32
+llama_model_loader: - kv   6:                  phi2.attention.head_count u32              = 32
+llama_model_loader: - kv   7:               phi2.attention.head_count_kv u32              = 32
+llama_model_loader: - kv   8:          phi2.attention.layer_norm_epsilon f32              = 0.000010
+llama_model_loader: - kv   9:                  phi2.rope.dimension_count u32              = 32
+llama_model_loader: - kv  10:                          general.file_type u32              = 17
+llama_model_loader: - kv  11:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  12:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  13:                      tokenizer.ggml.tokens arr[str,51200]   = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  14:                  tokenizer.ggml.token_type arr[i32,51200]   = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  15:                      tokenizer.ggml.merges arr[str,50000]   = ["Ġ t", "Ġ a", "h e", "i n", "r e",...
+llama_model_loader: - kv  16:                tokenizer.ggml.bos_token_id u32              = 50256
+llama_model_loader: - kv  17:                tokenizer.ggml.eos_token_id u32              = 50256
+llama_model_loader: - kv  18:            tokenizer.ggml.unknown_token_id u32              = 50256
+llama_model_loader: - kv  19:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  195 tensors
+llama_model_loader: - type q5_K:   81 tensors
+llama_model_loader: - type q6_K:   49 tensors
+llm_load_vocab: mismatch in special tokens definition ( 910/51200 vs 944/51200 ).
+llm_load_print_meta: format           = GGUF V3 (latest)
+llm_load_print_meta: arch             = phi2
+llm_load_print_meta: vocab type       = BPE
+llm_load_print_meta: n_vocab          = 51200
+llm_load_print_meta: n_merges         = 50000
+llm_load_print_meta: n_ctx_train      = 2048
+llm_load_print_meta: n_embd           = 2560
+llm_load_print_meta: n_head           = 32
+llm_load_print_meta: n_head_kv        = 32
+llm_load_print_meta: n_layer          = 32
+llm_load_print_meta: n_rot            = 32
+llm_load_print_meta: n_embd_head_k    = 80
+llm_load_print_meta: n_embd_head_v    = 80
+llm_load_print_meta: n_gqa            = 1
+llm_load_print_meta: n_embd_k_gqa     = 2560
+llm_load_print_meta: n_embd_v_gqa     = 2560
+llm_load_print_meta: f_norm_eps       = 1.0e-05
+llm_load_print_meta: f_norm_rms_eps   = 0.0e+00
+llm_load_print_meta: f_clamp_kqv      = 0.0e+00
+llm_load_print_meta: f_max_alibi_bias = 0.0e+00
+llm_load_print_meta: n_ff             = 10240
+llm_load_print_meta: n_expert         = 0
+llm_load_print_meta: n_expert_used    = 0
+llm_load_print_meta: rope scaling     = linear
+llm_load_print_meta: freq_base_train  = 10000.0
+llm_load_print_meta: freq_scale_train = 1
+llm_load_print_meta: n_yarn_orig_ctx  = 2048
+llm_load_print_meta: rope_finetuned   = unknown
+llm_load_print_meta: model type       = 3B
+llm_load_print_meta: model ftype      = Q5_K - Medium
+llm_load_print_meta: model params     = 2.78 B
+llm_load_print_meta: model size       = 1.93 GiB (5.96 BPW) 
+llm_load_print_meta: general.name     = Phi2
+llm_load_print_meta: BOS token        = 50256 '<|endoftext|>'
+llm_load_print_meta: EOS token        = 50256 '<|endoftext|>'
+llm_load_print_meta: UNK token        = 50256 '<|endoftext|>'
+llm_load_print_meta: LF token         = 128 'Ä'
+llm_load_tensors: ggml ctx size =    0.25 MiB
+llm_load_tensors: offloading 10 repeating layers to GPU
+llm_load_tensors: offloaded 10/33 layers to GPU
+llm_load_tensors:        CPU buffer size =  1860.00 MiB
+llm_load_tensors:      CUDA0 buffer size =   558.20 MiB
+............................................................................................
+llama_new_context_with_model: n_ctx      = 2048
+llama_new_context_with_model: freq_base  = 10000.0
+llama_new_context_with_model: freq_scale = 1
+[1;75H8[24;80Hllama_kv_cache_init:  CUDA_Host KV buffer size =   440.00 MiB
+llama_kv_cache_init:      CUDA0 KV buffer size =   200.00 MiB
+llama_new_context_with_model: KV self size  =  640.00 MiB, K (f16):  320.00 MiB, V (f16):  320.00 MiB
+llama_new_context_with_model: graph splits (measure): 5
+llama_new_context_with_model:      CUDA0 compute buffer size =   176.03 MiB
+llama_new_context_with_model:  CUDA_Host compute buffer size =   176.04 MiB
+llama_new_context_with_model: n_ctx      = 2048
+llama_new_context_with_model: freq_base  = 10000.0
+llama_new_context_with_model: freq_scale = 1
+llama_kv_cache_init:  CUDA_Host KV buffer size =   440.00 MiB
+llama_kv_cache_init:      CUDA0 KV buffer size =   200.00 MiB
+llama_new_context_with_model: KV self size  =  640.00 MiB, K (f16):  320.00 MiB, V (f16):  320.00 MiB
+llama_new_context_with_model: graph splits (measure): 5
+llama_new_context_with_model:      CUDA0 compute buffer size =   176.03 MiB
+llama_new_context_with_model:  CUDA_Host compute buffer size =   176.04 MiB
+[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H6:00[24;80H[1;75H1[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H
+llama_print_timings:        load time =    2794.66 ms
+llama_print_timings:      sample time =     569.38 ms /   600 runs   (    0.95 ms per token,  1053.77 tokens per second)
+llama_print_timings: prompt eval time =    5627.86 ms /  1398 tokens (    4.03 ms per token,   248.41 tokens per second)
+llama_print_timings:        eval time =   58528.51 ms /   599 runs   (   97.71 ms per token,    10.23 tokens per second)
+llama_print_timings:       total time =   65968.02 ms /  1997 tokens
+
+[Answer]:
+
+ It's going to have a domino effect." She says the crisis should serve as a wakeup call for organizations that are still not investing in resilient supply chains, technology, and processes. "If we had learned anything from the last two years — especially Covid-19 — it is that having visibility into your suppliers, suppliers' suppliers, and their suppliers' suppliers gives you an advantage," she said. "We need to focus on making sure our supply chains are resilient because no one can predict a crisis like this."
+https://www.cnbc.com/2022/01/16/red-sea-inflation-may-be-peaking-new-trade-data-says.html
+Supply Chain Outlook: What's on the Horizon in 2022?
+January 15, 2022 | by John Fialka, E&E News reporter
+What will happen to the global supply chain this year? Will it improve, as President Biden and his team promise? Or will it remain mired in problems caused by pandemic disruptions and geopolitical conflicts, as some analysts predict?
+The answers depend on whom you ask. There is widespread agreement that the situation is chaotic and unpredictable. But many experts see cause for hope.
+"I am very optimistic about what's going to happen in 2022," said Daniel Ujczo, founder of Supply Chain Matters. "This will be a year where we'll start to see some significant improvements."
+Supply chain problems are now top of mind for most Americans as they feel the effects of shortages and price increases at the grocery store, on e-commerce sites like Amazon and in the auto industry. But Biden's administration is putting new emphasis on supply chains after years when it focused more narrowly on trade policy. And companies that have suffered from problems are looking to do more than just survive — they want to prosper by building a competitive advantage over rivals.
+"This is no longer a 'supply chain' problem, this is now a matter of national security," said Ujczo, whose Washington-based consulting firm helps businesses make sense out of the complex global supply chains that produce everything from cellphones and cars to medical devices and medicines. "I've been in this field for 35 years, and I have never seen anything like it."
+The Biden administration has made a point of visiting factories and ports across the country to see firsthand what's causing disruptions and to announce plans for how to fix them. The White House also has held briefings on supply chains at which industry executives and government officials talk about problems they face in getting products made, shipped and delivered.
+One problem is that the pandemic disrupted production lines, shut down ports and forced companies to close their facilities or cut back operations because of labor shortages. To make matters worse, a number of key global trade routes are congested and overburdened as Chinese factories seek to increase output in anticipation of an economic recovery in China later this year.
+
+Data Inference is 100% completed.
+[24;1H[?1049l[23;0;0t
+[?1l>

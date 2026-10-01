@@ -1,0 +1,53 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 18:35:01 2024[24;80H[INFO] prompt context size: 10000
+[INFO] Number of tokens to predict: 10000
+[INFO] Number of layers to run on the GPU: 5
+[INFO] Batch size for prompt processing: 624
+[INFO] Log enable: false
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H6:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H7:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H8:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H9:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;71H40:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H
+[Answer]:
+
+ Those impacts may be amplified due to a lack of visibility into their own networks." The Red Sea crisis has already started impacting global shipping routes, with 80% of ships from the Far East being diverted through the Suez Canal, according to Resilinc. "Carriers are seeing an opportunity to maximize profits and make more money on each individual shipment, especially with spot market rates," said Vakil. "This is a critical choke point in the global supply chain." But Vakil added it was not just carriers taking advantage of the crisis to drive up prices. Ports are also charging premium fees for certain cargo types and congestion-causing situations, adding to supply chain disruption. This has already started affecting other trades as well. "There are plenty of ships in the Red Sea and we have enough capacity, but our ports and terminals do not," said Vakil. She added that ports should be able to handle the diversion from the Red Sea [ARTICLE TEXT REMOVED]
+
+In this news article, Xeneta (a leading ocean and air freight benchmarking platform) has been analyzing trade data from the Red Sea region and found that supply chain inflation may be peaking already. This is based on analysis of the latest data and shows a slight decline in [ARTICLE TEXT REMOVED] and this means that individual negotiations between shippers and ocean service providers may result in varied outcomes. [ARTICLE TEXT REMOVED] or had their contracts thrown out. The Red Sea attacks have impacted global supply chain and [ARTICLE TEXT REMOVED] Xeneta analyst Emily Stausbøll told CNBC that [ARTICLE TEXT REMOVED] and reduce the delivery time of trade.
+
+Major Entities involved: Xeneta (a leading ocean and air freight benchmarking platform), Emily Stausbøll (market analyst for Xeneta), Peter Sand (chief analyst for Xeneta), [ARTICLE TEXT REMOVED] Bindiya Vakil (CEO and co-founder of Resilinc)
+
+Key policy designations in the news: None.
+
+Company/Entity Profile: Xeneta is a leading ocean and air freight benchmarking platform that has been analyzing trade data from the Red Sea region and found that supply chain inflation may be peaking already. They are based in Norway and have not provided any information about their company size or number of employees.
+
+Competitors: Xeneta does not provide any information about their competitors in this news article.
+
+Market valuation: Xeneta does not provide any information about the market valuation of their company in this news article.
+
+Impact on stocks: Xeneta does not provide any information about the impact on stocks of their company or other companies in this news article.
+
+Industries Impacted: The Red Sea attacks have impacted global shipping routes, with 80% of ships from the Far East being diverted through the Suez Canal, according to Resilinc. This has affected various industries such as maritime advisory firms, ports and terminals, and supply chain mapping companies.
+
+Tone: The tone of this news article is neutral and informative.
+
+Risk Rating 0 - 10: Based on the information provided in this news article, the risk rating for Xeneta is 6 because they are a maritime advisory firm that relies on accurate data and analysis to provide their services and the Red Sea attacks have impacted global shipping routes which may affect their ability to provide accurate data and analysis.
+
+Justification for Risk Rating: The justification for a risk rating of 6 for Xeneta is based on the fact that they are a maritime advisory firm that relies on accurate data and analysis to provide their services and the Red Sea attacks have impacted global shipping routes which may affect their ability to provide accurate data and analysis. This could result in a loss of clients and revenue for Xeneta, which would negatively impact their business. Additionally, the lack of information about Xeneta's company size, number of employees, or market valuation makes it difficult to assess the specific risks they face.
+Data Inference is 100% completed.
+[24;1H[?1049l[23;0;0t
+[?1l>

@@ -1,0 +1,72 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 18:52:46 2024[24;80H[INFO] prompt context size: 10000
+[INFO] Number of tokens to predict: 10000
+[INFO] Number of layers to run on the GPU: 5
+[INFO] Batch size for prompt processing: 624
+[INFO] Log enable: false
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H3:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H51[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H4:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H5:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H6:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H7:00[24;80H[1;75H1[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H51[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H8:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;72H9:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H
+[Answer]:
+
+ These are the organizations that will not have the resources to recover from this disruption." Vakil also warns that other, unrelated supply chain friction points may arise, impacting a variety of industries. "The global economy is getting back to normal, but the number of headwinds and tailwinds we're experiencing as opposed to plain sailing remains quite high," she said.
+   
+   Key Players: Xeneta, Sea-Intelligence, Resilinc, National Retail Federation (NRF), ITS Logistics, Peter Sand (Chief Analyst for Xeneta) 
+
+   Policy designations: General rate increases (GRIs). 
+
+   Company/Entity Profile: Xeneta is a leading ocean and air freight benchmarking platform. Sea-Intelligence is a maritime advisory firm. Resilinc is a supply chain mapping, disruption sensing, and analytics company. The National Retail Federation (NRF) is the world's largest retail trade association, with ITS Logistics being one of the NRF's members. 
+
+   Competitors: Xeneta does not have any direct competitors, but other benchmarking platforms may offer similar services. Sea-Intelligence competes with other maritime advisory firms for market share. Resilinc has a unique business model and is currently unchallenged in the supply chain mapping, disruption sensing, and analytics space.
+
+   Market valuation: Not mentioned 
+
+   Impact on stocks: Xeneta does not have any publicly traded competitors with direct competitors being other benchmarking platforms offering similar services. Sea-Intelligence competes with other maritime advisory firms for market share but is currently unchallenged in the space due to its unique business model. Resilinc, which provides supply chain mapping and analytics services, does not have any publicly traded competitors. The National Retail Federation (NRF) is the world's largest retail trade association with ITS Logistics being one of the NRF's members.
+
+   Tone: Neutral 
+
+   Risk rating: 5 
+
+   Justification for risk rating: While there are no direct competitors to Xeneta, Sea-Intelligence, and Resilinc, they do compete with other firms in their respective industries for market share. The Red Sea crisis is causing uncertainty in the global supply chain and may lead to higher prices and less capacity on certain trade routes. This could result in significant losses for carriers as well as shippers who are not able to get the goods they need at a reasonable price or within a reasonable timeframe.
+
+   Summary/Solution: The Red Sea crisis is causing uncertainty in the global supply chain, but it appears that some shippers have negotiating leverage and are pushing back on ocean carriers for lower rates. The average delay for late vessel arrivals has increased to 5.35 days due to the Lunar New Year, which has impacted the delivery of trade around the Cape of Good Hope. Maritime advisory firm Sea-Intelligence said that there would [ARTICLE TEXT REMOVED] However, this does not mean that there will not be other supply chain friction points surfacing [ARTICLE TEXT REMOVED] The National Retail Federation (NRF) is also hearing from members about terminal appointment challenges for trucks to pick up containers and increased dwell times on rail-bound containers. While ocean carriers may not be able to fully take advantage of the crisis to excessively jack up prices, it appears that some shippers will feel [ARTICLE TEXT REMOVED] more than others.
+```
+
+Major Entities involved: Xeneta, Sea-Intelligence, Resilinc, National Retail Federation (NRF), ITS Logistics
+
+Key policy designations in the news: General rate increases (GRIs)
+
+Company/Entity Profile: Xeneta is a leading ocean and air freight benchmarking platform. Sea-Intelligence is a maritime advisory firm. Resilinc is a supply chain mapping, disruption sensing, and analytics company. The National Retail Federation (NRF) is the world's largest retail trade association, with ITS Logistics being one of the NRF's members.
+
+Competitors: Xeneta does not have any direct competitors, but other benchmarking platforms may offer similar services. Sea-Intelligence competes with other maritime advisory firms for market share but is currently unchallenged in the space due to its unique business model. Resilinc, which provides supply chain mapping and analytics services, does not have any publicly traded competitors.
+
+Market valuation: Not mentioned
+
+Impact on stocks: Xeneta does not have any publicly traded competitors with direct competitors being other benchmarking platforms offering similar services. Sea-Intelligence competes with other maritime advisory firms for market share but is currently unchallenged in the space due to its unique business model. Resilinc, which provides supply chain mapping and analytics services, does not have any publicly traded competitors. The National Retail Federation (NRF) is the world's largest retail trade association with ITS Logistics being one of the NRF's members.
+
+Tone: Neutral
+
+Risk rating: 5
+
+Justification for risk rating: While there are no direct competitors to Xeneta, Sea-Intelligence, and Resilinc, they do compete with other firms in their respective industries for market share. The Red Sea crisis is causing uncertainty in the global supply chain and may lead to higher prices and less capacity on certain trade routes. This could result in significant losses for carriers as well as shippers who are not able to get the goods they need at a reasonable price or within a reasonable timeframe.
+
+Summary/Solution: The Red Sea crisis is causing uncertainty in the global supply chain, but it appears that some shippers have negotiating leverage and are pushing back on ocean carriers for lower rates. The average delay for late vessel arrivals has increased to 5.35 days due to the Lunar New Year, which has impacted the delivery of trade around the Cape of Good Hope. Maritime advisory firm Sea-Intelligence said that there would [ARTICLE TEXT REMOVED] However, this does not mean that there will not be other supply chain friction points surfacing [ARTICLE TEXT REMOVED] The National Retail Federation (NRF) is also hearing from members about terminal appointment challenges for trucks to pick up containers and increased dwell times on rail-bound containers. While ocean carriers may not be able to fully take advantage of the crisis to excessively jack up prices, it appears that some shippers will feel [ARTICLE TEXT REMOVED] more than others.
+[1;75H6[24;80HData Inference is 100% completed.
+[24;1H[?1049l[23;0;0t
+[?1l>

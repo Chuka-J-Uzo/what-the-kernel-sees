@@ -1,0 +1,146 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 12:49:08 2024[24;80H[INFO] prompt context size: 8024
+[INFO] Number of tokens to predict: 10000
+[INFO] Number of layers to run on the GPU: 5
+[INFO] Batch size for prompt processing: 524
+[INFO] Log enable: true
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;71H50:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80Hllama_model_loader: loaded meta data with 21 key-value pairs and 291 tensors from /home/blackjack/Downloads/zephyr-7b-alpha.Q5_K_M.gguf (version GGUF V2)
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = llama
+llama_model_loader: - kv   1:                               general.name str              = huggingfaceh4_zephyr-7b-alpha
+llama_model_loader: - kv   2:                       llama.context_length u32              = 32768
+llama_model_loader: - kv   3:                     llama.embedding_length u32              = 4096
+llama_model_loader: - kv   4:                          llama.block_count u32              = 32
+llama_model_loader: - kv   5:                  llama.feed_forward_length u32              = 14336
+llama_model_loader: - kv   6:                 llama.rope.dimension_count u32              = 128
+llama_model_loader: - kv   7:                 llama.attention.head_count u32              = 32
+llama_model_loader: - kv   8:              llama.attention.head_count_kv u32              = 8
+llama_model_loader: - kv   9:     llama.attention.layer_norm_rms_epsilon f32              = 0.000010
+llama_model_loader: - kv  10:                       llama.rope.freq_base f32              = 10000.000000
+llama_model_loader: - kv  11:                          general.file_type u32              = 17
+llama_model_loader: - kv  12:                       tokenizer.ggml.model str              = llama
+llama_model_loader: - kv  13:                      tokenizer.ggml.tokens arr[str,32000]   = ["<unk>", "<s>", "</s>", "<0x00>", "<...
+llama_model_loader: - kv  14:                      tokenizer.ggml.scores arr[f32,32000]   = [0.000000, 0.000000, 0.000000, 0.0000...
+llama_model_loader: - kv  15:                  tokenizer.ggml.token_type arr[i32,32000]   = [2, 3, 3, 6, 6, 6, 6, 6, 6, 6, 6, 6, ...
+llama_model_loader: - kv  16:                tokenizer.ggml.bos_token_id u32              = 1
+llama_model_loader: - kv  17:                tokenizer.ggml.eos_token_id u32              = 2
+llama_model_loader: - kv  18:            tokenizer.ggml.unknown_token_id u32              = 0
+llama_model_loader: - kv  19:            tokenizer.ggml.padding_token_id u32              = 2
+llama_model_loader: - kv  20:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:   65 tensors
+llama_model_loader: - type q5_K:  193 tensors
+llama_model_loader: - type q6_K:   33 tensors
+llm_load_vocab: special tokens definition check successful ( 259/32000 ).
+llm_load_print_meta: format           = GGUF V2
+llm_load_print_meta: arch             = llama
+llm_load_print_meta: vocab type       = SPM
+llm_load_print_meta: n_vocab          = 32000
+llm_load_print_meta: n_merges         = 0
+llm_load_print_meta: n_ctx_train      = 32768
+llm_load_print_meta: n_embd           = 4096
+llm_load_print_meta: n_head           = 32
+llm_load_print_meta: n_head_kv        = 8
+llm_load_print_meta: n_layer          = 32
+llm_load_print_meta: n_rot            = 128
+llm_load_print_meta: n_embd_head_k    = 128
+llm_load_print_meta: n_embd_head_v    = 128
+llm_load_print_meta: n_gqa            = 4
+llm_load_print_meta: n_embd_k_gqa     = 1024
+llm_load_print_meta: n_embd_v_gqa     = 1024
+llm_load_print_meta: f_norm_eps       = 0.0e+00
+llm_load_print_meta: f_norm_rms_eps   = 1.0e-05
+llm_load_print_meta: f_clamp_kqv      = 0.0e+00
+llm_load_print_meta: f_max_alibi_bias = 0.0e+00
+llm_load_print_meta: n_ff             = 14336
+llm_load_print_meta: n_expert         = 0
+llm_load_print_meta: n_expert_used    = 0
+llm_load_print_meta: rope scaling     = linear
+llm_load_print_meta: freq_base_train  = 10000.0
+llm_load_print_meta: freq_scale_train = 1
+llm_load_print_meta: n_yarn_orig_ctx  = 32768
+llm_load_print_meta: rope_finetuned   = unknown
+llm_load_print_meta: model type       = 7B
+llm_load_print_meta: model ftype      = Q5_K - Medium
+llm_load_print_meta: model params     = 7.24 B
+llm_load_print_meta: model size       = 4.78 GiB (5.67 BPW) 
+llm_load_print_meta: general.name     = huggingfaceh4_zephyr-7b-alpha
+llm_load_print_meta: BOS token        = 1 '<s>'
+llm_load_print_meta: EOS token        = 2 '</s>'
+llm_load_print_meta: UNK token        = 0 '<unk>'
+llm_load_print_meta: PAD token        = 2 '</s>'
+llm_load_print_meta: LF token         = 13 '<0x0A>'
+llm_load_tensors: ggml ctx size =    0.22 MiB
+llm_load_tensors: offloading 5 repeating layers to GPU
+llm_load_tensors: offloaded 5/33 layers to GPU
+llm_load_tensors:        CPU buffer size =  4892.99 MiB
+llm_load_tensors:      CUDA0 buffer size =   755.00 MiB
+...................................................................................................
+llama_new_context_with_model: n_ctx      = 32768
+llama_new_context_with_model: freq_base  = 10000.0
+llama_new_context_with_model: freq_scale = 1
+[1;75H1[24;80H[1;75H2[24;80Hllama_kv_cache_init:  CUDA_Host KV buffer size =  3456.00 MiB
+llama_kv_cache_init:      CUDA0 KV buffer size =   640.00 MiB
+llama_new_context_with_model: KV self size  = 4096.00 MiB, K (f16): 2048.00 MiB, V (f16): 2048.00 MiB
+[1;75H3[24;80Hllama_new_context_with_model: graph splits (measure): 5
+llama_new_context_with_model:      CUDA0 compute buffer size =  2190.16 MiB
+llama_new_context_with_model:  CUDA_Host compute buffer size =  2190.16 MiB
+[1;75H4[24;80Hllama_new_context_with_model: n_ctx      = 32768
+llama_new_context_with_model: freq_base  = 10000.0
+llama_new_context_with_model: freq_scale = 1
+[1;75H5[24;80H[1;75H6[24;80Hllama_kv_cache_init:  CUDA_Host KV buffer size =  3456.00 MiB
+llama_kv_cache_init:      CUDA0 KV buffer size =   640.00 MiB
+llama_new_context_with_model: KV self size  = 4096.00 MiB, K (f16): 2048.00 MiB, V (f16): 2048.00 MiB
+[1;75H7[24;80Hllama_new_context_with_model: graph splits (measure): 5
+llama_new_context_with_model:      CUDA0 compute buffer size =  2190.16 MiB
+llama_new_context_with_model:  CUDA_Host compute buffer size =  2190.16 MiB
+[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H1:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H2:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[2024-02-28 12:52:31.544] [info] [WASI-NN] GGML backend: EOS token found
+
+llama_print_timings:        load time =   10844.18 ms
+llama_print_timings:      sample time =     355.07 ms /   588 runs   (    0.60 ms per token,  1655.99 tokens per second)
+llama_print_timings: prompt eval time =   11346.09 ms /  1523 tokens (    7.45 ms per token,   134.23 tokens per second)
+llama_print_timings:        eval time =  121296.74 ms /   587 runs   (  206.64 ms per token,     4.84 tokens per second)
+llama_print_timings:       total time =  140540.03 ms /  2110 tokens
+[1;75H2[24;80H
+[Answer]:
+
+ They do not have the financial resources to absorb these unexpected increases in costs." She added that while there is a lot of focus on ocean freight rates, land transportation costs and labor shortages also need to be considered as part of the overall cost impact. "The real cost will depend on a number of factors including how long the crisis lasts, the capacity available on the land side and the ability for shippers to find other viable alternatives," Vakil said. Xeneta's analysis was based on 250,000 ocean container contract prices from 40 global carriers. Xeneta has a database of over 110 million ocean container spot and contract rates. The platform is used by more than 1,100 shipping companies and contains live data on ocean container rates for all the world's major trade routes. Major Entities involved:
+- Ocean carriers
+- Shippers
+Key policy designations in the news:
+- General Rate Increases (GRIs)
+Company/Entity Profile:
+- Xeneta is a leading ocean and air freight benchmarking platform
+- Resilinc is a supply chain mapping, disruption sensing, and analytics company
+Competitors:
+- Drewry's World Container Index (WCI)
+Market valuation:
+- Not mentioned
+Impact on stocks:
+- No direct impact mentioned
+Industries Impacted:
+- Logistics industry 
+Tone:
+- Positive and informative, highlighting a potential reduction in ocean freight rates for certain trade routes. Risk Rating (0 - 10):
+- 3 (low risk) due to the potential reduction in ocean freight rates for some trade routes, but high risk for [ARTICLE TEXT REMOVED] as they may not have the financial resources to absorb unexpected increases in costs. Justification for Risk Rating:
+The recent [ARTICLE TEXT REMOVED] may have peaked on key global trade routes. According to analysis from Xeneta, average February short-term rates for [ARTICLE TEXT REMOVED] This suggests that [ARTICLE TEXT REMOVED] However, for cargo headed to the U.S., rates are still rising. Other supply chain friction points are also surfacing, such as rail-bound container dwell times and terminal appointment challenges for trucks to pick up containers in West Coast ports after Lunar New Year. [ARTICLE TEXT REMOVED] may not have the financial resources to absorb unexpected increases in costs, putting them at high risk.
+Data Inference is 100% completed.
+[24;1H[?1049l[23;0;0t
+[?1l>

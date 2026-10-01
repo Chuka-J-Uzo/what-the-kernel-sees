@@ -1,0 +1,44 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 19:01:05 2024[24;80H[INFO] prompt context size: 10000
+[INFO] Number of tokens to predict: 10000
+[INFO] Number of layers to run on the GPU: 5
+[INFO] Batch size for prompt processing: 624
+[INFO] Log enable: false
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H2:00[24;80H[1;75H1[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H51[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H3:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H4:01[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H
+[Answer]:
+
+ The effect is not as big for those at the top, but it will still be painful."
+
+Major entities involved: Xeneta (ocean and air freight benchmarking platform), ocean service providers
+Key policy designations: Red Sea crisis
+Company/Entity Profile: Xeneta is a leading ocean and air freight benchmarking platform; Emily Stausbøll, Xeneta market analyst; Peter Sand, chief analyst for Xeneta
+Competitors: There are no competitors mentioned in the news
+Market valuation: Not mentioned in the news
+Impact on stocks: Not mentioned in the news
+Industries Impacted: [ARTICLE TEXT REMOVED] is impacting global trade routes, particularly ocean routes from Asia to Europe and the Mediterranean as well as U.S.-bound trade. [ARTICLE TEXT REMOVED]
+Tone: The tone of the news is neutral and informative.
+Risk Rating 0 - 10: 5 due to [ARTICLE TEXT REMOVED] impacting global trade routes, particularly ocean routes from Asia to Europe and the Mediterranean as well as U.S.-bound trade
+Justification for Risk Rating: The risk rating is 5 because there are still risks associated with [ARTICLE TEXT REMOVED] impacting global trade routes, particularly ocean routes from Asia to Europe and the Mediterranean as well as U.S-bound trade. This could lead to increased costs for shippers and decreased capacity in ports, which may result in further disruptions in the supply chain.
+
+This news article discusses the potential impact of the Red Sea crisis on global trade routes, particularly ocean routes from Asia to Europe and the Mediterranean as well as U.S-bound trade. The analysis suggests that the Red Sea crisis may be peaking already, based on the latest data from Xeneta, a leading ocean and air freight benchmarking platform. [ARTICLE TEXT REMOVED] may have peaked on key global trade routes, as [ARTICLE TEXT REMOVED] show a slight decline. However, for U.S.-bound trade, prices are still climbing. [ARTICLE TEXT REMOVED] The risk rating of 5 is due to the ongoing Red Sea crisis and its potential impact on global trade routes, which may result in increased costs for shippers and decreased capacity in ports, causing further disruptions in the supply chain.
+Data Inference is 100% completed.
+[24;1H[?1049l[23;0;0t
+[?1l>

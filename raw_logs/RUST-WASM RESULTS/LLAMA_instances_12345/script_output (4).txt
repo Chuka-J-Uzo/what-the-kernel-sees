@@ -1,0 +1,41 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 18:01:27 2024[24;80H[INFO] prompt context size: 8024
+[INFO] Number of tokens to predict: 10000
+[INFO] Number of layers to run on the GPU: 10
+[INFO] Batch size for prompt processing: 3024
+[INFO] Log enable: false
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H2:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H3:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H21[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H4:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H
+[Answer]:
+
+ There is a risk that some may not survive this crisis." She added: "This is not just a disruption for shipping, it's a broader supply chain issue as more capacity is being deployed into the region to handle the increased demand, which could have unintended consequences further downstream." Supply Chain Impact. The Red Sea attacks and ongoing vessel attacks are impacting global supply chains, particularly those relying on the Suez Canal for transit between Europe and Asia. The short-term impact has been a sharp spike in container shipping rates, as shippers seek alternative routes to avoid the crisis. However, as ocean carriers begin to adjust their networks in response to the disruption, rates may begin to flatten or decline. The overall impact on supply chains will depend on the duration of the crisis and how it affects trade volumes. 
+  1. Major Entities involved: Red Sea attacks, Houthi rebels, shippers, ocean carriers, freight forwarders, Xeneta, Sea-Intelligence, National Retail Federation (NRF), ITS Logistics, Resilinc.
+  2. Key policy designations in the news: [ARTICLE TEXT REMOVED] according to Xeneta. [ARTICLE TEXT REMOVED] leading to a slight decrease in rates.
+  3. Company/Entity Profile: Xeneta is an ocean and air freight benchmarking platform that provides market analysis and insights. Sea-Intelligence is a maritime advisory firm that specializes in supply chain risk management. Resilinc is a supply chain mapping, disruption sensing, and analytics company.
+  4. Competitors: None specified in the article.
+  5. Market valuation: The market valuation of Xeneta is not mentioned in the article.
+  6. Impact on stocks: The article does not mention the impact of the Red Sea crisis on stock prices.
+  7. Industries Impacted: Global supply chains, particularly those relying on the Suez Canal for transit between Europe and Asia.
+  8. Tone: The tone of the article is informative and neutral, providing facts and analysis without taking a biased stance.
+  9. Risk Rating: 5/10 - The risk rating is based on the potential impact of the Red Sea crisis on global supply chains, which could be significant if the situation prolongs or worsens. However, the article suggests that ocean carriers may begin to adjust their networks in response to the disruption, which could help mitigate some of the risks.
+  10. Justification for Risk Rating: The risk rating is based on the potential impact of the Red Sea crisis on global supply chains, which could be significant if the situation prolongs or worsens. The article provides analysis and insights from industry experts suggesting that the crisis may have peaked on key global trade routes, but there is still uncertainty and potential risks involved in the situation.
+Data collection completed.
+[24;1H[?1049l[23;0;0t
+[?1l>

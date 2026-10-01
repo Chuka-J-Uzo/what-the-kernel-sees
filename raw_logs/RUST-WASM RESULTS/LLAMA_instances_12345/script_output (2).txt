@@ -1,0 +1,63 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 17:45:20 2024[24;80H[INFO] prompt context size: 8024
+[INFO] Number of tokens to predict: 10000
+[INFO] Number of layers to run on the GPU: 10
+[INFO] Batch size for prompt processing: 3024
+[INFO] Log enable: false
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H6:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H31[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H7:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H8:00[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H
+[Answer]:
+
+ They will be at a disadvantage as they lack the resources to weather this type of crisis." Vakil also tells CNBC that while some shippers may have negotiating leverage, others are not so lucky. "Supply chain mapping is critical during times like these because companies need to understand their exposure," she said. "We expect more cancellations and delays in the near term as a result of the Red Sea crisis." According to Resilinc's data, shippers that were exposed to the Suez Canal crisis last year are still feeling the impact today. In addition, companies with higher exposure to indirect materials have been hit hardest due to their reliance on air and ocean freight for just-in-time deliveries.  Xeneta's Sand said some shippers may be able to negotiate lower rates but others will struggle. "The power dynamic is very much in the hands of the ocean carriers at the moment," he said. "Most people have been caught out by this crisis, and many are struggling with the uncertainty." He also told CNBC that while some shippers have seen their contracts honored during the crisis, others have seen surcharges added or had their contracts thrown out. [ARTICLE TEXT REMOVED]  Xeneta said on Wednesday [ARTICLE TEXT REMOVED] (CNBC)
+   Key Entities Involved:
+     - Red Sea
+     - Houthi rebels
+     - Xeneta
+     - Sea-Intelligence
+     - National Retail Federation (NRF)
+     - ITS Logistics
+     - Resilinc
+   Key Policy Designations:
+     - General Rate Increases (GRIs)
+     - Suez Canal crisis
+   Company/Entity Profile:
+     - Xeneta: Ocean and air freight benchmarking platform.
+     - Sea-Intelligence: Maritime advisory firm.
+     - National Retail Federation (NRF): Trade association for retailers.
+     - ITS Logistics: Drayage & intermodal provider.
+     - Resilinc: Supply chain mapping, disruption sensing, and analytics company.
+   Competitors:
+     - None mentioned in the article.
+   Market Valuation:
+     - No information on market valuation provided in the article.
+   Impact on Stocks:
+     - No information on impact of Red Sea crisis on stocks provided in the article.
+   Industries Impacted:
+     - Global supply chain.
+   Tone:
+     - Neutral, providing analysis and data on the impact of the Red Sea crisis on global supply chains.
+   Risk Rating: 5 (out of 10) based on the potential disruption to global supply chains [ARTICLE TEXT REMOVED]
+Reasons for Risk Rating:
+     - Uncertainty in the market due to the ongoing crisis.
+     - Potential for increased costs and delays in global supply chain operations.
+     - Lack of control for shippers and ocean carriers in navigating the crisis.
+Data collection completed.
+[24;1H[?1049l[23;0;0t
+[?1l>

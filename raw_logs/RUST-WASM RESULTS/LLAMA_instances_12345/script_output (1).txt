@@ -1,0 +1,66 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 17:40:34 2024[24;80H[INFO] prompt context size: 8024
+[INFO] Number of tokens to predict: 10000
+[INFO] Number of layers to run on the GPU: 10
+[INFO] Batch size for prompt processing: 3024
+[INFO] Log enable: false
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H1:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H31[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H2:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H41[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H3:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H
+[Answer]:
+
+ This means there will likely be a consolidation of suppliers, as well as increased bankruptcies." Red Sea supply chain inflation may have peaked for some key trade routes. (Graphic: Xeneta) Supply chain experts are closely watching how the crisis in the Red Sea region could impact global supply chains. The area has seen a surge in attacks on shipping vessels, leading to fears of higher freight rates and longer delivery times. According to data from Xeneta, ocean carrier spot rates have jumped by as much as 25% in some cases, with the biggest increases seen on the trade route between Asia and Europe. In this article, we will analyze the latest news on the Red Sea supply chain inflation and its potential impact on global trade.
+
+Key Entities involved:
+
+* Xeneta (leading ocean and air freight benchmarking platform)
+* National Retail Federation (NRF)
+* ITS Logistics (drayage & intermodal company)
+* Resilinc (supply chain mapping, disruption sensing, and analytics company)
+
+Key policy designations:
+
+* General rate increases (GRIs)
+* Ocean freight carriers
+* Shippers
+* Forwarders
+
+Company/Entity Profile:
+Xeneta is a leading ocean and air freight benchmarking platform that provides data-driven insights to help shippers, carriers, and suppliers make better decisions. The company's data covers over 150 trade routes, including the Red Sea region, and provides detailed information on ocean freight rates, vessel delays, and other supply chain metrics.
+
+Competitors:
+Xeneta does not have direct competitors in the market for ocean and air freight benchmarking platforms. However, there are other companies that provide similar data and analytics services, such as Container xChange, Freightos, and Project44.
+
+Market valuation:
+The global ocean freight market is valued at over $100 billion annually, with the Red Sea region representing a significant portion of this market. The recent surge in attacks on shipping vessels has led to concerns about the long-term impact on global supply chains and the potential for higher freight rates.
+
+Impact on stocks:
+The news of Red Sea supply chain inflation peaking has had a mixed impact on stocks. Some companies in the ocean carrier sector, such as Maersk and Hapag-Lloyd, have seen their shares rise due to the increased demand for their services. However, other companies, such as retailers reliant on global supply chains, have seen their shares decline due to concerns about higher costs and longer delivery times.
+
+Industries Impacted:
+The Red Sea crisis has impacted a wide range of industries, including retail, manufacturing, and logistics. The increase in ocean freight rates and longer delivery times has led to concerns about the long-term impact on global supply chains and the potential for higher costs for consumers.
+
+Tone:
+The tone of the article is cautiously optimistic, with supply chain experts expressing concerns about the potential long-term impact of the Red Sea crisis on global supply chains but also highlighting signs that inflation may be peaking.
+
+Risk Rating (0-10):
+Based on the latest data and analysis, the risk rating for Red Sea supply chain inflation is around a 5 out of 10. While there are still concerns about the long-term impact on global supply chains, there are also signs that inflation may be peaking for some key trade routes.
+[1;75H4[24;80HData collection completed.
+[24;1H[?1049l[23;0;0t
+[?1l>

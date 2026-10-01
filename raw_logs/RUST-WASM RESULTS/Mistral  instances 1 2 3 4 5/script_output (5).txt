@@ -1,0 +1,42 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 17:12:47 2024[24;80H[INFO] prompt context size: 524
+[INFO] Number of tokens to predict: 600
+[INFO] Number of layers to run on the GPU: 5
+[INFO] Batch size for prompt processing: 524
+[INFO] Log enable: false
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H3:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H11[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H4:00[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H
+[Answer]:
+
+ This will lead to a broader financial impact on retailers and other organizations that have complex supply chains."
+  
+    * Major Entities: Red Sea, ocean carriers, shippers, ports, logistics CEOs, government agencies, freight forwarders, railways, container dwell times, chassis availability. 
+    * Key policy designations: General Rate Increases (GRIs), contract honoring, surcharges added, power dynamics between shippers and ocean carriers. 
+    * Company/Entity Profile: Xeneta is a leading ocean and air freight benchmarking platform that provides data and analytics on the global freight market. Peter Sand is the chief analyst for Xeneta. Emily Stausbøll is a market analyst for Xenata. The National Retail Federation (NRF) is a trade association of the retail industry in the United States. Resilinc is a supply chain mapping, disruption sensing, and analytics company. 
+    * Competitors: Not mentioned. 
+    * Market valuation: Not mentioned. 
+    * Impact on stocks: Not mentioned. 
+    * Industries Impacted: Shipping, logistics, retail, freight forwarding. 
+    * Tone: Neutral, informative. 
+    * Risk Rating: 7. The potential for increased delays and congestion in global trade routes due to ongoing attacks on shipping vessels by Houthi rebels is a significant risk factor, despite the decline in ocean freight rates on some key trade routes. However, there are also uncertainties around how individual negotiations between shippers and ocean carriers will impact overall freight pricing. 
+    * Justification for Risk Rating: The potential for increased delays and congestion in global trade routes due to ongoing attacks on shipping vessels by Houthi rebels is a significant risk factor, despite the decline in ocean freight rates on some key trade routes. However, there are also uncertainties around how individual negotiations between shippers and ocean carriers will impact overall freight pricing. Additionally, the ripple effects of increased container rates being passed onto consumers could have broader financial impacts on retailers and other organizations with complex supply chains.
+Data Inference is 100% completed.
+[24;1H[?1049l[23;0;0t
+[?1l>

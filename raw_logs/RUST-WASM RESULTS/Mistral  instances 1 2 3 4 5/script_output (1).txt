@@ -1,0 +1,51 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 16:42:40 2024[24;80H[INFO] prompt context size: 524
+[INFO] Number of tokens to predict: 600
+[INFO] Number of layers to run on the GPU: 5
+[INFO] Batch size for prompt processing: 524
+[INFO] Log enable: false
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;72H3:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H51[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H4:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H
+[Answer]:
+
+ They will struggle to survive without significant financial support."
+
+   Major Entities Involved: Xeneta, CNBC, Sea-Intelligence
+   
+   Key Policy Designations: None
+   
+   Company/Entity Profile: Xeneta is a leading ocean and air freight benchmarking platform that helps shippers to optimize their logistics costs. They have an average of 1000 data points per trade route and can benchmark prices against over 200 carriers. CNBC is a global news channel that covers business, finance and politics. Sea-Intelligence is a maritime advisory firm that provides market intelligence, strategic analysis and research on the global maritime industry.
+   
+   Competitors: None mentioned in the news
+   
+   Market Valuation: Not applicable as the article does not mention any specific company or entity's stock prices. 
+   
+   Impact on Stocks: Not applicable as the article does not mention any specific company or entity's stock prices. 
+   
+   Industries Impacted: Shipping, logistics, freight forwarding
+   
+   Tone: Neutral and informative 
+   
+   Risk Rating 0 - 10: 5. The article mentions some risks that shippers may face due to the Red Sea crisis such as higher shipping rates, longer transit times, increased congestion at ports and rail terminals, and potential shortages of chassis. However, it also suggests that some shippers have negotiated lower rates with ocean carriers and there is a possibility that other trade routes may see rates flatten or reduce in the future. 
+   
+   Justification for Risk Rating: The Red Sea crisis has caused significant disruptions to global supply chains and shipping networks, leading to higher shipping rates and longer transit times. This could result in increased costs for shippers and potential shortages of goods for consumers. However, the article suggests that some shippers have negotiated lower rates with ocean carriers and there is a possibility that other trade routes may see rates flatten or reduce in the future. This indicates that there is some flexibility in the market and shippers may be able to mitigate some of the risks associated with the Red Sea crisis.
+Data Inference is 100% completed.
+[24;1H[?1049l[23;0;0t
+[?1l>

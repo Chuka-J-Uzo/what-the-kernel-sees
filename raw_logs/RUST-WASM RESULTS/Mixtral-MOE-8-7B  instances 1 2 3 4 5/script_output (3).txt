@@ -1,0 +1,80 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 18:43:35 2024[24;80H[INFO] prompt context size: 10000
+[INFO] Number of tokens to predict: 10000
+[INFO] Number of layers to run on the GPU: 5
+[INFO] Batch size for prompt processing: 624
+[INFO] Log enable: false
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H4:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H5:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H6:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H41[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H7:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H8:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H9:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H
+[Answer]:
+
+ This will result in a reduction of available products and services which may lead to shortages." Vakil also told CNBC that there could be a risk for organizations in the higher tiers of the supply chain as they might not have enough inventory on hand to meet demand, and these shortages would be felt by consumers. "I'm just concerned that we will see this cascade all the way up to Tier 1 suppliers," she said. The Red Sea crisis has resulted in the shipping industry losing between $30 million - $50 million every day. And as of now, it is unclear when the issue will be resolved. "The shipping companies are the ones that have lost the most money because they cannot serve their customers and they're not getting paid," said Vakil.
+
+   Major Entities involved:
+   * Xeneta, a leading ocean and air freight benchmarking platform
+   * Ocean carriers
+   * Shippers and Fortune 500 companies
+   * Ports & logistics companies
+   * Maritime advisory firm Sea-Intelligence
+   * Supply chain mapping company Resilinc
+   
+   Key policy designations in the news:
+   * Lunar New Year, a significant time of year for many Asian countries and economies
+   * The Suez Canal, which is currently blocked by a 400-foot vessel known as the Ever Given
+   * General rate increases (GRIs) implemented on January 16
+   
+   Company/Entity Profile:
+   * Xeneta: A leading ocean and air freight benchmarking platform. Has been analyzing supply chain disruptions caused by the Red Sea crisis.
+   * Ocean carriers: Companies that transport goods from one place to another via sea vessels. Have been impacted due to a blockage at the Suez Canal and ongoing attacks on shipping vessels in the Red Sea.
+   * Shippers and Fortune 500 companies: Individuals or organizations responsible for sending freight using ocean carriers. Have experienced supply chain disruptions due to the Red Sea crisis and have been forced to negotiate with ocean carriers for lower prices.
+   * Ports & logistics companies: Responsible for receiving, storing and distributing goods. Are facing congestion due to a lack of chassis availability as well as terminal appointment challenges.
+   * Maritime advisory firm Sea-Intelligence: Company that provides analysis and data on the maritime industry. Has been tracking supply chain disruptions caused by the Red Sea crisis.
+   * Supply chain mapping company Resilinc: Company that provides supply chain mapping services. Has been tracking supply chain disruptions caused by the Red Sea crisis.
+   
+   Competitors:
+   * Other ocean carriers, ports & logistics companies, and shippers
+   * Air freight services
+   
+   Market valuation:
+   * Ocean carriers have experienced increased revenues due to raised prices but are facing a loss of customers due to price hikes.
+   * Some supply chain mapping providers like Resilinc are seeing increased business during the Red Sea crisis.
+   
+   Impact on stocks:
+   * As of now, it is unclear how this will impact individual ocean carrier and port companies as well as other entities in the supply chain.
+   
+   Industries Impacted:
+   * Ocean carriers, ports & logistics providers, and shippers are being significantly impacted by the Red Sea crisis.
+   * Maritime advisory firms, supply chain mapping providers, and freight forwarders are also feeling the effects.
+   * Air freight services may be seeing increased demand as a result of this disruption.
+   
+   Tone:
+   * Notable for the seriousness in which the Red Sea crisis is being addressed and the potential impacts it could have on supply chain operations. The tone is also cautious, with experts monitoring the situation closely and preparing for possible outcomes.
+   
+   Risk Rating 0 - 10:
+   * 7 / 10 – This risk rating is due to the seriousness in which the Red Sea crisis is being addressed and the potential impacts it could have on supply chain operations. The tone is also cautious, with experts monitoring the situation closely and preparing for possible outcomes.
+   
+   Justification for Risk Rating:
+   * The justification for this risk rating is due to the seriousness in which the Red Sea crisis is being addressed and the potential impacts it could have on supply chain operations. The tone is also cautious, with experts monitoring the situation closely and preparing for possible outcomes. The unpredictability of this crisis is also a factor as well as its potential impact on global supply chains.
+
+
+This news article highlights how the Red Sea crisis has affected major entities in the supply chain, including ocean carriers, ports & logistics providers, and shippers. It discusses key policy designations such as Lunar New Year and the Suez Canal blockage, and provides company profiles for Xeneta, ocean carriers, shippers, ports & logistics companies, maritime advisory firm Sea-Intelligence, and supply chain mapping company Resilinc. Competitors include other ocean carriers, air freight services, and ports & logistics providers. The market valuation is not explicitly stated in this article, but it does mention that some supply chain mapping providers like Resilinc are seeing increased business during the Red Sea crisis. Impact on stocks is also unclear as of now. Industries impacted include ocean carriers, ports & logistics providers, and shippers, as well as maritime advisory firms, supply chain mapping providers, and freight forwarders. The tone is cautious and serious, with a risk rating of 7/10 due to the unpredictability of this crisis and its potential impact on global supply chains.
+[1;75H2[24;80HData Inference is 100% completed.
+[24;1H[?1049l[23;0;0t
+[?1l>

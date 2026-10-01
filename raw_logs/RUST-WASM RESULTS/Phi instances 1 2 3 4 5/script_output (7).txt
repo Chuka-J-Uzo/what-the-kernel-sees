@@ -1,0 +1,136 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 12:41:28 2024[24;80H[INFO] prompt context size: 524
+[INFO] Number of tokens to predict: 600
+[INFO] Number of layers to run on the GPU: 10
+[INFO] Batch size for prompt processing: 524
+[INFO] Log enable: true
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+llama_model_loader: loaded meta data with 20 key-value pairs and 325 tensors from /home/blackjack/Downloads/TheBloke-Phi-2-GGf/phi-2-Q5_K_M.gguf (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = phi2
+llama_model_loader: - kv   1:                               general.name str              = Phi2
+llama_model_loader: - kv   2:                        phi2.context_length u32              = 2048
+llama_model_loader: - kv   3:                      phi2.embedding_length u32              = 2560
+llama_model_loader: - kv   4:                   phi2.feed_forward_length u32              = 10240
+llama_model_loader: - kv   5:                           phi2.block_count u32              = 32
+llama_model_loader: - kv   6:                  phi2.attention.head_count u32              = 32
+llama_model_loader: - kv   7:               phi2.attention.head_count_kv u32              = 32
+llama_model_loader: - kv   8:          phi2.attention.layer_norm_epsilon f32              = 0.000010
+llama_model_loader: - kv   9:                  phi2.rope.dimension_count u32              = 32
+llama_model_loader: - kv  10:                          general.file_type u32              = 17
+llama_model_loader: - kv  11:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  12:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  13:                      tokenizer.ggml.tokens arr[str,51200]   = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  14:                  tokenizer.ggml.token_type arr[i32,51200]   = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  15:                      tokenizer.ggml.merges arr[str,50000]   = ["Ġ t", "Ġ a", "h e", "i n", "r e",...
+llama_model_loader: - kv  16:                tokenizer.ggml.bos_token_id u32              = 50256
+llama_model_loader: - kv  17:                tokenizer.ggml.eos_token_id u32              = 50256
+llama_model_loader: - kv  18:            tokenizer.ggml.unknown_token_id u32              = 50256
+llama_model_loader: - kv  19:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  195 tensors
+llama_model_loader: - type q5_K:   81 tensors
+llama_model_loader: - type q6_K:   49 tensors
+llm_load_vocab: mismatch in special tokens definition ( 910/51200 vs 944/51200 ).
+llm_load_print_meta: format           = GGUF V3 (latest)
+llm_load_print_meta: arch             = phi2
+llm_load_print_meta: vocab type       = BPE
+llm_load_print_meta: n_vocab          = 51200
+llm_load_print_meta: n_merges         = 50000
+llm_load_print_meta: n_ctx_train      = 2048
+llm_load_print_meta: n_embd           = 2560
+llm_load_print_meta: n_head           = 32
+llm_load_print_meta: n_head_kv        = 32
+llm_load_print_meta: n_layer          = 32
+llm_load_print_meta: n_rot            = 32
+llm_load_print_meta: n_embd_head_k    = 80
+llm_load_print_meta: n_embd_head_v    = 80
+llm_load_print_meta: n_gqa            = 1
+llm_load_print_meta: n_embd_k_gqa     = 2560
+llm_load_print_meta: n_embd_v_gqa     = 2560
+llm_load_print_meta: f_norm_eps       = 1.0e-05
+llm_load_print_meta: f_norm_rms_eps   = 0.0e+00
+llm_load_print_meta: f_clamp_kqv      = 0.0e+00
+llm_load_print_meta: f_max_alibi_bias = 0.0e+00
+llm_load_print_meta: n_ff             = 10240
+llm_load_print_meta: n_expert         = 0
+llm_load_print_meta: n_expert_used    = 0
+llm_load_print_meta: rope scaling     = linear
+llm_load_print_meta: freq_base_train  = 10000.0
+llm_load_print_meta: freq_scale_train = 1
+llm_load_print_meta: n_yarn_orig_ctx  = 2048
+llm_load_print_meta: rope_finetuned   = unknown
+llm_load_print_meta: model type       = 3B
+llm_load_print_meta: model ftype      = Q5_K - Medium
+llm_load_print_meta: model params     = 2.78 B
+llm_load_print_meta: model size       = 1.93 GiB (5.96 BPW) 
+llm_load_print_meta: general.name     = Phi2
+llm_load_print_meta: BOS token        = 50256 '<|endoftext|>'
+llm_load_print_meta: EOS token        = 50256 '<|endoftext|>'
+llm_load_print_meta: UNK token        = 50256 '<|endoftext|>'
+llm_load_print_meta: LF token         = 128 'Ä'
+llm_load_tensors: ggml ctx size =    0.25 MiB
+llm_load_tensors: offloading 10 repeating layers to GPU
+llm_load_tensors: offloaded 10/33 layers to GPU
+llm_load_tensors:        CPU buffer size =  1860.00 MiB
+llm_load_tensors:      CUDA0 buffer size =   558.20 MiB
+............................................................................................
+llama_new_context_with_model: n_ctx      = 2048
+llama_new_context_with_model: freq_base  = 10000.0
+llama_new_context_with_model: freq_scale = 1
+[1;75H9[24;80Hllama_kv_cache_init:  CUDA_Host KV buffer size =   440.00 MiB
+llama_kv_cache_init:      CUDA0 KV buffer size =   200.00 MiB
+llama_new_context_with_model: KV self size  =  640.00 MiB, K (f16):  320.00 MiB, V (f16):  320.00 MiB
+llama_new_context_with_model: graph splits (measure): 5
+llama_new_context_with_model:      CUDA0 compute buffer size =   176.03 MiB
+llama_new_context_with_model:  CUDA_Host compute buffer size =   176.04 MiB
+llama_new_context_with_model: n_ctx      = 2048
+llama_new_context_with_model: freq_base  = 10000.0
+llama_new_context_with_model: freq_scale = 1
+llama_kv_cache_init:  CUDA_Host KV buffer size =   440.00 MiB
+llama_kv_cache_init:      CUDA0 KV buffer size =   200.00 MiB
+llama_new_context_with_model: KV self size  =  640.00 MiB, K (f16):  320.00 MiB, V (f16):  320.00 MiB
+llama_new_context_with_model: graph splits (measure): 5
+llama_new_context_with_model:      CUDA0 compute buffer size =   176.03 MiB
+llama_new_context_with_model:  CUDA_Host compute buffer size =   176.04 MiB
+[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H2:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H11[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H
+llama_print_timings:        load time =    2850.03 ms
+llama_print_timings:      sample time =     552.12 ms /   600 runs   (    0.92 ms per token,  1086.72 tokens per second)
+llama_print_timings: prompt eval time =    5784.97 ms /  1398 tokens (    4.14 ms per token,   241.66 tokens per second)
+llama_print_timings:        eval time =   61440.76 ms /   599 runs   (  102.57 ms per token,     9.75 tokens per second)
+llama_print_timings:       total time =   69034.80 ms /  1997 tokens
+
+[Answer]:
+
+ They're the ones that are going to get squeezed the most."
+China's Belt and Road Initiative: What you need to know
+China has invested more than $1.4 trillion dollars across the globe over the last two decades as part of a grand global network that aims to connect the world economically, politically, and culturally. It is called the 'Belt and Road' or BRI for short. It's a massive investment plan which China calls "One Belt One Road". And it has been welcomed by many countries.
+But some people are worried about it too because there are concerns that it could cause political debt traps as well as environmental damage in poorer nations.
+China is using its massive wealth and resources to build infrastructure across the world, from roads and railways all the way through to ports and power plants. It's part of China's Belt and Road initiative which was launched by President Xi Jinping in 2013.
+The main idea behind it is that connecting Asia, Europe and Africa will help boost trade and investment between these regions and ultimately improve living standards. But critics say there are also risks involved as well - like political debt traps and environmental damage in poorer nations who might struggle to repay their debts or cope with the negative impact of all this new development on their environment.
+So what exactly is Belt and Road, how does it work, and why should we care? Here's everything you need to know about China's massive global investment plan:
+What is Belt and Road?
+The "Belt" refers to a network of roads that would run through Asia, Europe and Africa, linking the Middle East with Russia. The "Roads" refer to all sorts of different types of transportation infrastructure, including railways, airports and ports. Together, they make up one giant interconnected system designed to promote trade and investment across borders in these regions - so long as you're willing to pay China for access!
+The Belt and Road Initiative (BRI) began when Chinese President Xi Jinping announced it during a visit to Kazakhstan in 2013. Since then, Beijing has invested more than $1 trillion dollars into the project – which means that about half of all global infrastructure spending is going towards something called One Belt One Road!
+How does it work?
+In theory, if you're willing to pay China for access they'll let you use their roads or railways to get where you want to go. This could be through signing contracts with other countries who are interested in getting more trade opportunities from Asia - but only if they agree that we can build new ones there first! And then once these contracts have been signed off by both parties (which usually takes around six months), it's up for grabs: Who gets what part of this infrastructure project – and how much will come out of their pockets? That's where things get complicated.
+The thing is, if China builds something on your territory without any prior agreement with you then we have no right to use it ourselves so long as those terms
+Data Inference is 100% completed.
+[24;1H[?1049l[23;0;0t
+[?1l>

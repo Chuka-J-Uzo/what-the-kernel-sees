@@ -1,0 +1,40 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 17:00:05 2024[24;80H[INFO] prompt context size: 524
+[INFO] Number of tokens to predict: 600
+[INFO] Number of layers to run on the GPU: 5
+[INFO] Batch size for prompt processing: 524
+[INFO] Log enable: false
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H1:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H2:00[24;80H[1;75H1[24;80H
+[Answer]:
+
+ They are the ones who will struggle more in this crisis."
+  
+* Key policy designations in the news: The news discusses the impact of the Red Sea crisis on global trade, specifically focusing on ocean freight rates and shipping delays. It also touches on logistics and transportation issues arising from the crisis. There are no specific policy designations mentioned in the news.
+* Company/Entity Profile: The article mentions Xeneta, a leading ocean and air freight benchmarking platform, which provided data on ocean freight rates for various trade routes. It also mentions Sea-Intelligence, a maritime advisory firm that provided information on shipping delays.
+* Competitors: The article does not mention any specific competitors in the supply chain industry.
+* Market valuation: The article discusses the impact of the Red Sea crisis on ocean freight rates and shipping delays, but it does not provide a direct market valuation for any particular entity.
+* Impact on stocks: The article mentions that some shippers have negotiated lower rates with ocean carriers, which may indicate a decline in shipping demand or an increase in bargaining power for shippers. It also notes that some shippers have had contracts thrown out or seen surcharges added, indicating potential financial impacts on shippers and possibly on ocean carriers as well.
+* Industries Impacted: The article primarily focuses on the impact of the Red Sea crisis on global trade and logistics, specifically on ocean freight rates and shipping delays. It also touches on transportation issues arising from the crisis.
+* Tone: The tone of the article is informative and analytical, discussing various aspects of the impact of the Red Sea crisis on supply chains and logistics.
+* Risk Rating 0 - 10: Based on the information provided in the article, the risk rating for this news would be moderate (Risk Rating 5). While there are some positive indications that ocean freight rates may decline or flatten in certain regions, there are also ongoing risks associated with shipping delays and potential increases in shipping costs. Additionally, there are concerns about the impact of the Red Sea crisis on [ARTICLE TEXT REMOVED]
+Data Inference is 100% completed.
+[24;1H[?1049l[23;0;0t
+[?1l>

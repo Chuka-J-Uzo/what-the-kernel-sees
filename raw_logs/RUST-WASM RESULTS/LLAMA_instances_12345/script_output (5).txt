@@ -1,0 +1,37 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 18:05:41 2024[24;80H[INFO] prompt context size: 8024
+[INFO] Number of tokens to predict: 10000
+[INFO] Number of layers to run on the GPU: 10
+[INFO] Batch size for prompt processing: 3024
+[INFO] Log enable: false
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H6:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H21[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H7:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H8:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H
+[Answer]:
+
+ This is not a disruption that is limited to one segment of the ocean shipping industry." What Xeneta says about Red Sea inflation peaking. Key findings: 1) Rates on key global trade routes have begun to decline, with some reduction in spot prices for Far East to Europe and Mediterranean. (2) For U.S.-bound cargo, prices are still climbing, but at a slower pace than previously seen. (3) Ocean carriers appear to be negotiating down rates with shippers based on individual agreements. 4) Despite increased demand for air freight during the crisis, ocean carriers have not taken advantage of the situation to excessively jack up prices. 5) The overall impact of the Red Sea crisis on global supply chains is still being assessed, but there are signs that inflation may be peaking, particularly on key trade routes. Tone: Neutral Key Entities Involved: Xeneta, National Retail Federation (NRF), Resilinc, ITS Logistics Risk Rating: 4/10 (based on the potential for prolonged disruption and the impact on global supply chains)
+
+This news article discusses the recent inflation in supply chain costs [ARTICLE TEXT REMOVED] According to Xeneta, a leading ocean and air freight benchmarking platform, rates on key global trade routes have begun to decline, with some reduction in spot prices for Far East to Europe and Mediterranean. While U.S.-bound cargo prices are still climbing, the rate of increase is slower than previously seen. Ocean carriers appear to be negotiating down rates with shippers based on individual agreements. Despite increased demand for air freight during the crisis, ocean carriers have not taken advantage of the situation to excessively jack up prices. The overall impact of the Red Sea crisis on global supply chains is still being assessed, but there are signs that inflation may be peaking, particularly on key trade routes.
+
+The article highlights the complexity of the situation and the different perspectives of various stakeholders, including shippers, ocean carriers, and freight forwarders. The CEO of [ARTICLE TEXT REMOVED] notes that the impact of the crisis runs deep from a supply chain perspective and that organizations with deeper pockets are likely to weather the disruption better. The article also mentions a [ARTICLE TEXT REMOVED] where supply chain experts testified about the challenges facing the industry, including rail-bound container dwell times, chassis availability, and terminal appointment challenges for trucks.
+
+Overall, the tone of the article is neutral, providing a balanced view of the situation and the various perspectives of different stakeholders involved. The risk rating of 4/10 is based on the potential for prolonged disruption and the impact on global supply chains.
+Data collection completed.
+[24;1H[?1049l[23;0;0t
+[?1l>

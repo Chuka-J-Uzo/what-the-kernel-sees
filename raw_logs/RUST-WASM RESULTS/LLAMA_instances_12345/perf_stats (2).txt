@@ -1,0 +1,20 @@
+# started on Wed Feb 28 17:45:19 2024
+
+
+ Performance counter stats for './analyze_wt_produce_csv_data.sh':
+
+        639,289.52 msec task-clock                       #    3.568 CPUs utilized             
+            28,199      context-switches                 #   44.110 /sec                      
+             3,507      cpu-migrations                   #    5.486 /sec                      
+         1,286,295      page-faults                      #    2.012 K/sec                     
+ 1,774,683,203,038      cycles                           #    2.776 GHz                         (75.27%)
+ 2,848,711,699,498      instructions                     #    1.61  insn per cycle              (75.34%)
+   238,884,672,599      branches                         #  373.672 M/sec                       (75.28%)
+       434,074,238      branch-misses                    #    0.18% of all branches             (75.30%)
+
+     179.157072108 seconds time elapsed
+
+     615.266420000 seconds user
+       9.964771000 seconds sys
+
+

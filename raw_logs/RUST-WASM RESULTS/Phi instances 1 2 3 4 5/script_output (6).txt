@@ -1,0 +1,128 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 12:38:31 2024[24;80H[INFO] prompt context size: 524
+[INFO] Number of tokens to predict: 600
+[INFO] Number of layers to run on the GPU: 10
+[INFO] Batch size for prompt processing: 524
+[INFO] Log enable: true
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+llama_model_loader: loaded meta data with 20 key-value pairs and 325 tensors from /home/blackjack/Downloads/TheBloke-Phi-2-GGf/phi-2-Q5_K_M.gguf (version GGUF V3 (latest))
+llama_model_loader: Dumping metadata keys/values. Note: KV overrides do not apply in this output.
+llama_model_loader: - kv   0:                       general.architecture str              = phi2
+llama_model_loader: - kv   1:                               general.name str              = Phi2
+llama_model_loader: - kv   2:                        phi2.context_length u32              = 2048
+llama_model_loader: - kv   3:                      phi2.embedding_length u32              = 2560
+llama_model_loader: - kv   4:                   phi2.feed_forward_length u32              = 10240
+llama_model_loader: - kv   5:                           phi2.block_count u32              = 32
+llama_model_loader: - kv   6:                  phi2.attention.head_count u32              = 32
+llama_model_loader: - kv   7:               phi2.attention.head_count_kv u32              = 32
+llama_model_loader: - kv   8:          phi2.attention.layer_norm_epsilon f32              = 0.000010
+llama_model_loader: - kv   9:                  phi2.rope.dimension_count u32              = 32
+llama_model_loader: - kv  10:                          general.file_type u32              = 17
+llama_model_loader: - kv  11:               tokenizer.ggml.add_bos_token bool             = false
+llama_model_loader: - kv  12:                       tokenizer.ggml.model str              = gpt2
+llama_model_loader: - kv  13:                      tokenizer.ggml.tokens arr[str,51200]   = ["!", "\"", "#", "$", "%", "&", "'", ...
+llama_model_loader: - kv  14:                  tokenizer.ggml.token_type arr[i32,51200]   = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, ...
+llama_model_loader: - kv  15:                      tokenizer.ggml.merges arr[str,50000]   = ["Ġ t", "Ġ a", "h e", "i n", "r e",...
+llama_model_loader: - kv  16:                tokenizer.ggml.bos_token_id u32              = 50256
+llama_model_loader: - kv  17:                tokenizer.ggml.eos_token_id u32              = 50256
+llama_model_loader: - kv  18:            tokenizer.ggml.unknown_token_id u32              = 50256
+llama_model_loader: - kv  19:               general.quantization_version u32              = 2
+llama_model_loader: - type  f32:  195 tensors
+llama_model_loader: - type q5_K:   81 tensors
+llama_model_loader: - type q6_K:   49 tensors
+llm_load_vocab: mismatch in special tokens definition ( 910/51200 vs 944/51200 ).
+llm_load_print_meta: format           = GGUF V3 (latest)
+llm_load_print_meta: arch             = phi2
+llm_load_print_meta: vocab type       = BPE
+llm_load_print_meta: n_vocab          = 51200
+llm_load_print_meta: n_merges         = 50000
+llm_load_print_meta: n_ctx_train      = 2048
+llm_load_print_meta: n_embd           = 2560
+llm_load_print_meta: n_head           = 32
+llm_load_print_meta: n_head_kv        = 32
+llm_load_print_meta: n_layer          = 32
+llm_load_print_meta: n_rot            = 32
+llm_load_print_meta: n_embd_head_k    = 80
+llm_load_print_meta: n_embd_head_v    = 80
+llm_load_print_meta: n_gqa            = 1
+llm_load_print_meta: n_embd_k_gqa     = 2560
+llm_load_print_meta: n_embd_v_gqa     = 2560
+llm_load_print_meta: f_norm_eps       = 1.0e-05
+llm_load_print_meta: f_norm_rms_eps   = 0.0e+00
+llm_load_print_meta: f_clamp_kqv      = 0.0e+00
+llm_load_print_meta: f_max_alibi_bias = 0.0e+00
+llm_load_print_meta: n_ff             = 10240
+llm_load_print_meta: n_expert         = 0
+llm_load_print_meta: n_expert_used    = 0
+llm_load_print_meta: rope scaling     = linear
+llm_load_print_meta: freq_base_train  = 10000.0
+llm_load_print_meta: freq_scale_train = 1
+llm_load_print_meta: n_yarn_orig_ctx  = 2048
+llm_load_print_meta: rope_finetuned   = unknown
+llm_load_print_meta: model type       = 3B
+llm_load_print_meta: model ftype      = Q5_K - Medium
+llm_load_print_meta: model params     = 2.78 B
+llm_load_print_meta: model size       = 1.93 GiB (5.96 BPW) 
+llm_load_print_meta: general.name     = Phi2
+llm_load_print_meta: BOS token        = 50256 '<|endoftext|>'
+llm_load_print_meta: EOS token        = 50256 '<|endoftext|>'
+llm_load_print_meta: UNK token        = 50256 '<|endoftext|>'
+llm_load_print_meta: LF token         = 128 'Ä'
+llm_load_tensors: ggml ctx size =    0.25 MiB
+llm_load_tensors: offloading 10 repeating layers to GPU
+llm_load_tensors: offloaded 10/33 layers to GPU
+llm_load_tensors:        CPU buffer size =  1860.00 MiB
+llm_load_tensors:      CUDA0 buffer size =   558.20 MiB
+............................................................................................
+llama_new_context_with_model: n_ctx      = 2048
+llama_new_context_with_model: freq_base  = 10000.0
+llama_new_context_with_model: freq_scale = 1
+[1;75H2[24;80Hllama_kv_cache_init:  CUDA_Host KV buffer size =   440.00 MiB
+llama_kv_cache_init:      CUDA0 KV buffer size =   200.00 MiB
+llama_new_context_with_model: KV self size  =  640.00 MiB, K (f16):  320.00 MiB, V (f16):  320.00 MiB
+llama_new_context_with_model: graph splits (measure): 5
+llama_new_context_with_model:      CUDA0 compute buffer size =   176.03 MiB
+llama_new_context_with_model:  CUDA_Host compute buffer size =   176.04 MiB
+llama_new_context_with_model: n_ctx      = 2048
+llama_new_context_with_model: freq_base  = 10000.0
+llama_new_context_with_model: freq_scale = 1
+llama_kv_cache_init:  CUDA_Host KV buffer size =   440.00 MiB
+llama_kv_cache_init:      CUDA0 KV buffer size =   200.00 MiB
+llama_new_context_with_model: KV self size  =  640.00 MiB, K (f16):  320.00 MiB, V (f16):  320.00 MiB
+llama_new_context_with_model: graph splits (measure): 5
+llama_new_context_with_model:      CUDA0 compute buffer size =   176.03 MiB
+llama_new_context_with_model:  CUDA_Host compute buffer size =   176.04 MiB
+[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H9:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H11[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H
+llama_print_timings:        load time =    2926.43 ms
+llama_print_timings:      sample time =     565.72 ms /   600 runs   (    0.94 ms per token,  1060.59 tokens per second)
+llama_print_timings: prompt eval time =    5887.43 ms /  1398 tokens (    4.21 ms per token,   237.46 tokens per second)
+llama_print_timings:        eval time =   61564.66 ms /   599 runs   (  102.78 ms per token,     9.73 tokens per second)
+llama_print_timings:       total time =   69277.50 ms /  1997 tokens
+
+[Answer]:
+
+ It will take time for these companies to recover." Related: Red Sea crisis has forced global supply chains into a 'new normal' for 2023 How the global economy is impacted. In an interview with CNBC, World Bank Group President David Malpass said the latest disruptions are "a setback in terms of economic recovery from Covid," and he predicts that inflation will continue to accelerate as it feeds off of supply chain bottlenecks. "I think we are going to be in a much tougher situation than we thought we were in a few months ago, because supply chains have been so disrupted by the war and now also the conflict in Ukraine and all these other disruptions," Malpass said. On Tuesday, the World Bank Group released its latest Global Economic Prospects report, which forecast global growth will slow to 2.9% this year from 3.2% last year. But the economic outlook is still much better than it was at the start of 2022, when the World Bank Group cut its predictions for global GDP growth and inflation, as supply chain disruptions caused by the Suez Canal blockage and Russia's invasion of Ukraine threatened to derail economic recoveries in many parts of the world. "The global economy has been given a shot in the arm," Malpass said on CNBC's 'Squawk Box Europe.' "But it is going to be more difficult this year."
+LONDON (AP) — A British man was stabbed outside a nightclub after a fight broke out between rival gang members, an officer with London's Metropolitan Police Service said Monday. The attack happened around 1:30 p.m. Saturday at the Bimini club on Oxford Street in central London, where two men were arguing and fighting when one of them was stabbed, according to an initial police statement. The victim was taken to hospital but is expected to make a full recovery, the statement said. It was not immediately clear whether the stabbing happened as part of a gang feud or between strangers.
+A 'slim chance' that Russia will invade Ukraine — US Army general
+WASHINGTON (Reuters) - U.S. Central Command commander Gen. Kenneth McKenzie on Monday downplayed Russian President Vladimir Putin's claim to be ready for an "imminent" invasion of Ukraine, saying Moscow's troops were in a relatively weak state and the West had time before they would attack. "There's a slim chance that Russia will actually do this," McKenzie told reporters during his regular briefing at the Pentagon. "We've got time. We still have allies and partners to work with."
+A British man was stabbed outside a nightclub after a fight broke out between rival gang members, an officer with London's Metropolitan Police Service said Monday. The attack happened around 1:30 p.m. Saturday at the Bimini club on Oxford Street in central London, where two men were arguing and fighting when one of them was stabbed, according to an initial police statement. The victim was taken to hospital but is expected to make a full
+Data Inference is 100% completed.
+[24;1H[?1049l[23;0;0t
+[?1l>

@@ -1,0 +1,58 @@
+Starting data collection for GPU and RAM usage...
+Prompt: 
+   Analyse & summarize the news from a supply chain point of view (avoid verbosity):
+   * Major Entities involved, 
+   * Key policy designations in the news, 
+   * Company/Entity Profile, 
+   * Competitors, 
+   * Market valuation, 
+   * Impact on stocks, 
+   * Industries Impacted, 
+   * Tone, 
+   * Risk Rating 0 - 10, 
+   * Justification for Risk Rating        
+   
+Text to Analyze: [ARTICLE TEXT REMOVED]
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[H[2JEvery 1.0s: echo $(date +%Y-%m-%d\ %H:%M...  blackjack: Wed Feb 28 18:28:21 2024[24;80H[INFO] prompt context size: 10000
+[INFO] Number of tokens to predict: 10000
+[INFO] Number of layers to run on the GPU: 5
+[INFO] Batch size for prompt processing: 624
+[INFO] Log enable: false
+ggml_init_cublas: GGML_CUDA_FORCE_MMQ:   no
+ggml_init_cublas: CUDA_USE_TENSOR_CORES: yes
+ggml_init_cublas: found 1 CUDA devices:
+  Device 0: NVIDIA GeForce GTX 1060, compute capability 6.1, VMM: yes
+[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H9:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H21[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;71H30:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H11[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H9[24;80H[1;72H1:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H10[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H20[24;80H[1;75H1[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H30[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H40[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H50[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;72H2:00[24;80H[1;75H1[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H[1;75H8[24;80H[1;75H9[24;80H[1;74H11[24;80H[1;75H2[24;80H[1;75H3[24;80H[1;75H4[24;80H[1;75H5[24;80H[1;75H6[24;80H[1;75H7[24;80H
+[Answer]:
+
+ They will be impacted first, which will then have a domino effect on their customers and ultimately their customers' customers." 
+   * Major Entities involved: Xeneta, Xeneta analysts Emily Stausbøll and Peter Sand, CNBC, ocean carriers, freight forwarders, shippers, retailers, port authorities, local governments.        
+   * Key policy designations in the news: No specific policies are mentioned; however, general rate increases, Lunar New Year, and how global trade is affected by the Red Sea crisis.          
+   * Company/Entity Profile: Xeneta provides a leading ocean and air freight benchmarking platform that analyzes data from multiple sources to create a picture of where rates are headed. CNBC highlights their expertise in this space due to their extensive work with shippers and ocean carriers, understanding market trends and the supply chain ecosystem.          
+   * Competitors: Xeneta competitors include other freight benchmarking platforms such as Freightos, which also have close ties with shippers and ocean carriers.          
+   * Market valuation: No specific market valuation is mentioned.         
+   * Impact on stocks: No specific impact on stocks is mentioned.            
+   * Industries Impacted: Shipping and logistics industries are impacted by the Red Sea crisis, as well as retailers due to price increases for cargo shipments.        
+   * Tone: The tone of this news story is informative and neutral, providing an overview of the supply chain ecosystem without focusing on any specific company or policy.          
+   * Risk Rating 6 / 10, Justification for Risk Rating: The Red Sea crisis has caused significant disruption to global trade routes, with attacks by Houthi rebels on shipping vessels and a sharp spike in supply chain inflation. While rates are beginning to decline in some areas, the overall market is still uncertain due to individual negotiations between shippers and ocean service providers. This uncertainty, combined with price increases for cargo shipments, creates a risk rating of 6/10.
+
+Major Entities involved: Xeneta, freight forwarders, shippers, retailers, port authorities, local governments.
+
+Key policy designations in the news: No specific policies are mentioned; however, general rate increases, Lunar New Year, and how global trade is affected by the Red Sea crisis.
+
+Company/Entity Profile: Xeneta provides a leading ocean and air freight benchmarking platform that analyzes data from multiple sources to create a picture of where rates are headed. CNBC highlights their expertise in this space due to their extensive work with shippers and ocean carriers, understanding market trends and the supply chain ecosystem.
+
+Competitors: Xeneta competitors include other freight benchmarking platforms such as Freightos, which also have close ties with shippers and ocean carriers.
+
+Market valuation: No specific market valuation is mentioned.
+
+Impact on stocks: No specific impact on stocks is mentioned.
+
+Industries Impacted: Shipping and logistics industries are impacted by the Red Sea crisis, as well as retailers due to price increases for cargo shipments.
+
+Tone: The tone of this news story is informative and neutral, providing an overview of the supply chain ecosystem without focusing on any specific company or policy.
+
+Risk Rating 6 / 10, Justification for Risk Rating: The Red Sea crisis has caused significant disruption to global trade routes, with attacks by Houthi rebels on shipping vessels and a sharp spike in supply chain inflation. While rates are beginning to decline in some areas, the overall market is still uncertain due to individual negotiations between shippers and ocean service providers. This uncertainty, combined with price increases for cargo shipments, creates a risk rating of 6/10.
+Data Inference is 100% completed.
+[24;1H[?1049l[23;0;0t
+[?1l>
